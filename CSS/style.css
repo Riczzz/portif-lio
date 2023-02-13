@@ -8,8 +8,8 @@ header {
 
     display: flex;
     justify-content: space-between;
-    background-color: #b5b5b5;
-    border-bottom: 0.5em solid #000;
+    background-color:#090D04;
+    border-bottom: 0.5em solid rgb(0, 0, 0);
     padding: 0.5em 1em;
 
 }
@@ -27,7 +27,7 @@ a {
     font-size: 1em;
     font-family: 'fira code', sans-serif;
     font-weight: 500;
-    color: #000;
+    color: #ffffff;
     text-decoration: none;
     margin-right: 30px;
 
@@ -35,7 +35,7 @@ a {
 
 a::before {
     content: "";
-    background-color: #2656b7;
+    background-color: #507303;
     width: 0.5em;
     height: 0.5em;
     margin-right: 0.5em;
@@ -44,7 +44,8 @@ a::before {
 .button {
 
     display: inline-block;
-    background-color: #4977d3;
+    background-color: #5d840a;
+    color: #ffffff;
     padding: 0.8em 1em;
     box-shadow: 4px 4px 0 #000;
     transition-property: background-color;
@@ -55,6 +56,7 @@ a::before {
 
 .button:hover {
 
-    background-color:#1d67fa;
+    background-color:#507303;
     transform: scale(1.1);
 }
+
