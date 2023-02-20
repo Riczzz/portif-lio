@@ -2,62 +2,10 @@
 body {
 
     -webkit-font-smoothing: antialiased;
-
-}
-
-header {
-
-    display: flex;
-    justify-content: space-between;
-    background-color:#F0F2F2;
-    border-bottom: 0.5em solid #010326;
-    padding: 0.5em 1em;
-
-}
-
-nav {
-
-    text-align: right;
-
-}
-
-a {
-
-    display: inline-flex;
-    align-items: center;
-    font-size: 1em;
+    background-color: #F0F2F2;
     font-family: 'fira code', sans-serif;
-    font-weight: 500;
-    color:#010326 ;
-    text-decoration: none;
-    margin-right: 30px;
 
 }
 
-a::before {
-    content: "";
-    background-color: #6FBFBF;
-    width: 0.5em;
-    height: 0.5em;
-    margin-right: 0.5em;
-}
 
-.button {
-
-    display: inline-block;
-    background-color: #6FBFBF;
-    color: #010326;
-    padding: 0.8em 1em;
-    box-shadow: 4px 4px 0 #000;
-    transition-property: background-color;
-    transition-duration: 0.8s;
-    margin: 0;
-
-}
-
-.button:hover {
-
-    background-color:#82D9D9;
-    transform: scale(1.1);
-}
 

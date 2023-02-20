@@ -2,11 +2,11 @@
     display: inline-block;
     background-color:#3A4042;
     width: 630px;
-    box-shadow: 8px 8px 0 #000;
+    box-shadow: 0.5em 0.5em 0 #000;
     text-align: center;
-    padding: 42px 44px;
+    padding: 42px 42px;
 }
 
-.box > h1{
+.box  .title{
     margin-bottom: 28px;
 }
