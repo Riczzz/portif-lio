@@ -3,11 +3,11 @@
     display: inline-block;
     font-family: 'fira code', sans-serif;
     background-color: #6FBFBF;
-    color: #010326;
+    color: #fff;
     padding: 0.8em 1em;
     box-shadow: 4px 4px 0 #000;
     transition-property: background-color;
-    transition-duration: 0.8s;
+    transition-duration: 0.9s;
     margin-right: 30;
     text-decoration: none;
 
@@ -15,6 +15,8 @@
 
 .button:hover {
 
-    background-color:#82D9D9;
-    transform: scale(1.1);
+    background-color:#F0F2F2;
+    
+    color: #6FBFBF;
+    box-shadow: 4px 4px #6FBFBF ;
 }

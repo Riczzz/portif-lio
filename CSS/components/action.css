@@ -14,7 +14,7 @@
 .action::before {
     content: "";
     background-color: #6FBFBF;
-    width: 0.5em;
-    height: 0.5em;
+    width: 0.6em;
+    height: 0.6em;
     margin-right: 0.5em;
 }
