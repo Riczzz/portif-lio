@@ -1,6 +1,7 @@
 .banner {
     box-sizing: border-box;
-  
+    background: linear-gradient(to right bottom, #fff, #6FBFBF 
+    );
     background-repeat: no-repeat;
     background-size: 100%;
     height: 800px;
@@ -28,4 +29,11 @@
     justify-content: space-evenly;
     width: 630px;
     
+}
+
+.banner._skills {
+    height: 730px;
+    padding: 0;
+    
+
 }
